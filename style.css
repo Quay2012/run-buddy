@@ -104,7 +104,7 @@ section {
     color: #024e76;
     background-color: #fce138;
     padding: 20px;
-    border: 3px; solid #024e76;
+    border: 3px solid #024e76;
     width: 40%;
     margin: 3.5%;
    
@@ -228,7 +228,7 @@ section {
 }
 
 .step {
-    margin: 50%;
+    margin: 50% auto;
     padding-bottom: 50%;
     width: 80%;
     border-bottom: 1px solid #39a6b2;
@@ -239,7 +239,6 @@ section {
 }
 
 .trainers {
-    overflow: auto;
     width: 100%;
     margin: 0 auto;
     display: flex;
@@ -247,7 +246,7 @@ section {
     justify-content: space-around;
 }
 
-.trainers {
+.trainer {
     margin: 20px;
     background: #024e76;
     color: #fce138;
@@ -256,12 +255,10 @@ section {
 
 .trainers img {
     width: 100%;
-    overflow: auto;
 }
 
 .trainer-bio {
     padding: 25px;
-    overflow: auto;
     line-height: 1.3;
 }
 
